@@ -1,0 +1,26 @@
+{
+  "name": "flow",
+  "version": "0.0.1",
+  "description": "A repo meant to store and build our contribution flow chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p bin && mmdc -i contriubtion_flow.mmd -o bin/contribution_flow.png -b transparent -t dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSC-CSE123/flow.git"
+  },
+  "keywords": [
+    "mermaid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UCSC-CSE123/flow/issues"
+  },
+  "homepage": "https://github.com/UCSC-CSE123/flow#readme",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.4.8"
+  }
+}
